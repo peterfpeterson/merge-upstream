@@ -15,6 +15,9 @@ jobs:
           - owner: peterfpeterson
             repo: mantid
             branch: main
+          - owner: neutrons
+            repo: ADARA-Neutrons
+            branch: main
 
     steps:
     - name: Merge upstream ${{ matrix.owner }}/${{ matrix.repo }} for branch ${{ matrix.branch }}
